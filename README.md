@@ -2,7 +2,7 @@
 
 This is a simple yet elegant **Currency Converter** web app built using **React**, **Tailwind CSS**, and **Vite**. It allows users to convert one currency to another using real-time exchange rates with a clean and modern user interface.
 
-![App Screenshot](./resources/result.png)
+![App Screenshot](./resources/result/result.png)
 
 ---
 
