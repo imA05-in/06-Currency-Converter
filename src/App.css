@@ -1,0 +1,7 @@
+@import "tailwindcss";
+
+
+.active-animation{
+    @apply
+    active:scale-95
+}
