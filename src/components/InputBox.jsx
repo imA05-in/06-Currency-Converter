@@ -1,14 +1,12 @@
 
 function InputBox({
     label, 
-    amount,
-    onAmount
+    className = "",
 }){
-    return(
-        <>
-        
-        </>
-    )
+      return (
+        <></>
+    );
+
 }
 
 const dd = [dw2,ew]
