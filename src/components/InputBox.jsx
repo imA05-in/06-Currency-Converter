@@ -1,4 +1,4 @@
-
+import React,{useId} from "react"
 function InputBox({
     className = "",
     label ,
@@ -10,18 +10,22 @@ function InputBox({
 }
     
 ) {
+    const amountInputId = useId()
+
     return (
         <div className={`bg-white rounded-lg text-sm p-3 flex ${className} my-3`}>
 
             <div className="left w-1/2 pl-2 flex flex-col justify-around">
-                <label htmlFor="" className="text-black/40">
+                <label htmlFor={amountInputId} className="text-black/40">
                 {label}
                 </label>
                 <input 
+                id={amountInputId}
                 type="number"
                 className="outline-none w-full py-1.5 "
-                placeholder="Amount"
                 value={amount}
+                // placeholder={amount}
+                placeholder="Amount"
                 onChange={(e)=> onAmountChange && onAmountChange(Number(e.target.value))}
                 />
                 
