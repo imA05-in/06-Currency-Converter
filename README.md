@@ -24,4 +24,4 @@ This is a simple yet elegant **Currency Converter** web app built using **React*
 - **APIs**: (Add the API used here, e.g., `exchangerate-api` or `ExchangeRate.host` if applicable)
 
 ---
-![Result ScreenShot](/ResultSS.png)
+![Result ScreenShot](/ResultSS.pngc)
